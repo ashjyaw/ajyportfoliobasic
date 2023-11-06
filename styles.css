@@ -10,18 +10,40 @@ body {
     top: 30%;
     width: 100%;
 }
-.heading h1 {
-    color: rgb(85, 37, 130);
-    text-shadow: 0 0 3px #FDB927, 0 0 5px #000000; 
-    font-size: 90px;
+a{
+    color: #FDB927;
 }
-.heading h3 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    text-shadow: 0 0 3px #FDB927, 0 0 5px #000000;     
+a:link, a:visited {
+    border-radius: 25%;
+    border: 2px solid #FDB927;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    border-radius: 20%;
+    background-color: black;
+    color: #64b2ce;
 
 }
+.heading h1 {
+    /*color: rgb(85, 37, 130);*/
+    color: #64b2ce;
+    text-shadow: 1px 1px 1px #ffffff;
+
+    font-size: 70px;
+}
+.heading h3 {
+    font-size: 25px;
+}
 #particles-js {
-    background: rgb(0, 0, 0);
+    background: rgb(0, 139, 139);
     height: 100vh;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+    color: black;
 }
