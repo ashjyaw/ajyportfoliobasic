@@ -13,6 +13,14 @@ body {
 a{
     color: white;
 }
+.curPosition{
+    size: 15px;
+
+}
+p{
+    color: white;
+}
+
 a:link, a:visited {
     border-radius: 25%;
     border: 2px solid white;
@@ -28,22 +36,26 @@ a:link, a:visited {
     color: #64b2ce;
 
 }
+h2{
+    font-size: 20px;
+}
+
 .heading h1 {
     /*color: rgb(85, 37, 130);*/
     color: #64b2ce;
     text-shadow: 1px 1px 1px #ffffff;
 
-    font-size: 70px;
+    font-size: 90px;
 }
 .heading h3 {
     font-size: 25px;
 }
 #particles-js {
-    background: rgb(0, 139, 139);
+    background: rgb(0, 138, 138);
     height: 100vh;
 }
 footer{
     text-align: center;
-    font-size: 10px;
-    color: black;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
 }
